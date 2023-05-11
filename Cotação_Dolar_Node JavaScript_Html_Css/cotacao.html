@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotação do Dólar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Cotação do Dólar</h1>
+  </header>
+  
+  <main>
+    <section class="cotacao">
+      <h2>Cotação atual</h2>
+      <p>Moeda: <span id="nome"></span></p>
+      <p>Valor do Real equivalente a 1 dólar: <span id="alto"></span></p>
+    </section>
+    
+    <section class="conversor">
+      <h2>Conversor</h2>
+      <div>
+        <label for="qtd_dolar">Quantidade em Dólar:</label>
+        <input type="text" id="qtd_dolar" size="2">
+        <span>=</span>
+        <span id="resultado_conversao"></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="consulta_dolar.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
