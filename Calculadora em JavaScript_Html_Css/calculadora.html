@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculadora">
+    <form>
+      <h1>Calculadora</h1>
+      <div class="form-group">
+        <label for="n1">Primeiro número:</label>
+        <input type="text" name="numero1" id="n1" onkeyup="recebeN2()">
+      </div>
+      <div class="form-group">
+        <label for="op">Operador:</label>
+        <input type="text" name="operador" id="op" onkeyup="recebeN2()">
+      </div>
+      <div class="form-group">
+        <label for="n2">Segundo número:</label>
+        <input type="text" name="numero2" id="n2" onkeyup="recebeN2()">
+      </div>
+      <div class="form-group">
+        <label for="resultado">Resultado:</label>
+        <p><span id="resultado"></span></p>
+      </div>
+    </form>
+  </div>
+  <script src="calculadora.js"></script>
+</body>
+</html>
