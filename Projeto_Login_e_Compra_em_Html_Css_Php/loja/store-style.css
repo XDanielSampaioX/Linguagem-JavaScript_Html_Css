@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height:100vh;
+}
+
+.container-principal{
+    margin:auto;
+    width:95%;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-opt{
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+.computer, .notebook{
+    width:200px;
+}
+
+.opcoes-pecas-notebook, .opcoes-pecas-pc{
+    display:flex;
+    flex-flow:column nowrap;
+}
