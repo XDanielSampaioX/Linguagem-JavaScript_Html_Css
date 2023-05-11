@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Cadastre-se no Orkut</title>
+	<style>
+		body {
+			background: white url("https://s2.glbimg.com/3TCu4HZLSKcQyPThjXdQbcdesrk=/0x0:1280x853/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/f/M/BYHH4RQpqzsMWKtoOhOw/redes-sociais.jpg") no-repeat;
+			background-size:cover;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+		}
+		.container {
+			width: 900px;
+			margin: 0 auto;
+			background-color: #fdf9f9;
+			padding: 20px;
+			box-shadow: 0px 0px 10px #888888;
+			border-style: solid;
+			border-radius: 20px;
+		}
+		h1 {
+			font-size: 36px;
+			color: #e8258e;;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		form {
+			margin-top: 20px;
+			text-align: after;
+		}
+		label {
+			display: block;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		input[type=text], input[type=password] {
+			font-size: 20px;
+			padding: 5px;
+			border: 1px solid #CCCCCC;
+			border-radius: 5px;
+			margin-bottom: 5px;
+			width: 100%;
+		}
+		input[type=submit] {
+			background-color: #e8258e;
+			color: #fcfafa;
+			font-size: 26px;
+			padding: 10px;
+			border: none;
+			border-radius: 5%;
+			cursor: pointer;
+			width: 20%;
+		}
+		.teste {
+			width: 40%;
+			margin: 0 auto;
+			padding: 20px;
+			box-shadow: 0px 0px 10px #888888;
+			border-style: solid;
+			border-radius: 20px;
+		}
+		.termos {
+			
+			text-align: center;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Cadastre-se no Orkut!</h1>
+		<form>
+            
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome">
+			<label for="Sobrenome">Sobrenome:</label>
+			<input type="text" id="Sobrenome" name="sobrenome">
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email">
+			<label for="telefone">Telefone: </label>
+			<p><input type="number" id="telefone" name="telefone"></p>
+		    
+		 <p><label for="estadocivil" class="text">Estado civil:</p>
+		<select name="estadocivil" class="dropdown" required>	
+			<option selected disabled class="form_select_option" value="">Selecione</option>
+			<option value="Solteiro" class="form_select_option">Solteiro(a)</option>
+			<option value="Casado" class="form_select_option">Casado(a) </option>
+			<option value="Divorciado" class="form_select_option">Divorciado(a)</option>                    
+	     <p><option value="Viúvo" class="form_select_option">Viúvo(a)</option></p>                    
+		</select>
+	    </label>
+		<div class="form_grupo">
+
+			<p><font size="5"><span class="legenda">Sexo:</span></font></p>
+			
+			<div class="radio-btn">
+				<label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> 
+					<input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino"> Masculino</label>
+			</div>
+
+			<div class="radio-btn">
+				
+				<label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> 
+					<p><input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino"> Feminino</label></p>
+			</div>
+
+			<div class="radio-btn">
+				
+				<label for="outros" class="radio_label form_label"> <span class="radio_new_btn"></span> 
+					<p><input type="radio" class="form_new_input" id="outros" name="sexo" value="Feminino"> Outros</label></p>
+			</div>
+
+		</div>
+		<div class="form_grupo">
+			<p><label for="datanascimento" class="form_label">Data de Nascimento: 
+				<input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required></label></p>
+		</div> 
+
+		<p><font size="5"> <span class="legenda">Interessado(a) em:</span> </font></p>
+
+				<div class="check-btn">
+					<label for="amigos" class="form_label check_label"> <span class="check_new_btn"> 
+						<input type="checkbox" class="form_new_input" id="amigos" name="escolher" value="amigos"> </span>Amigos</label>
+				</div>
+
+				<div class="check-btn">
+					<label for="parceiros de atividades" class="form_label check_label"><span class="check_new_btn">
+						<input type="checkbox" class="form_new_input" id="parceiros de atividades" name="escolher" value="parceiros de atividades">
+					</span> Parceiros de Atividades</label>
+				</div>
+
+				<div class="check-btn">            
+					<label for="contatos profissionais" class="form_label check_label"><span class="check_new_btn">
+						<input type="checkbox" class="form_new_input" id="contatos profissionais" name="escolher" value="contatos profissionais">
+					</span>Contatos Profissionais</label>
+				</div>
+
+				<div class="check-btn">
+					<label for="namoro" class="form_label check_label"><span class="check_new_btn">
+						<input type="checkbox" class="form_new_input" id="namoro" name="escolher" value="namoro">
+					</span>Namoro
+						<select name="interessado_em" class="dropdown" required>
+							<option selected disabled class="form_select_option" value="">Selecione</option>
+							<option value="homens" class="form_select_option">Homens</option>
+							<option value="mulheres" class="form_select_option">Mulheres</option>
+							<option value="outros" class="form_select_option">Outros</option>                     
+						</select></label>
+						</div>
+		<p><label for="senha">Senha:</label>
+		<input type="password" id="senha" name="senha">
+		<label for="senha">Confirmar Senha:</label>
+		<input type="password" id="senha" name="senha"></p>
+		<p><div class="termos">
+			<font size="5"><input type="checkbox" class="form_new_input" id="termo"
+				name="termo" value="termo"><span class="legenda">  Ao me cadastrar,
+					li e concordo com os termos. </span><br></font>
+			
+			<div class="radio-btn">
+				<br>
+				<input type="submit" value="Cadastrar">
+			</div>		
+	
+	</form>
+	</div>
+	<div class="form_grupo">
+                                    
+
+
+	</div>
+</body>
+</html>

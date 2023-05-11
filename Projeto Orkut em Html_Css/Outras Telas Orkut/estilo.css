@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.email{
+    padding-bottom: 5px;
+}
+
+.botao{
+    padding-top: 5px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+h4{
+    padding-top: 5px;
+}
+.EsqueciUsuario{
+    padding-top: 7px;
+}
+
+h2{
+    padding: 3px 3px;
+}
+.confirm {
+    padding-top: 10px;
+}
+.naoEminhaConta{
+    padding-top: 10px;
+}
+
